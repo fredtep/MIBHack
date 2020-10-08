@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cdn.mailinblack.com/cdn/v1/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://cdn.mailinblack.com/cdn/v1/fonts/OpenSans-Semibold.ttf');
+}
+
+.icon {
+  cursor: pointer;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "Font Awesome 5 Pro" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-refresh:before {
+  content: "\f021";
+}
+.icon-speaker:before {
+  content: "\f025";
+}
+.icon-words:before {
+  content: "\f031";
+}
+.icon-download:before{
+  content: "\f019";
+}
+.icon-check-circle:before{
+  content: "\f058";
+}
+.icon-envelope:before{
+  content: "\f0e0";
+}
+
